@@ -1,20 +1,32 @@
-import React, { Component } from 'react'
-import ReactDOM from 'react-dom'
-import Link from 'gatsby-link'
-import styled, { injectGlobal } from 'styled-components'
-import Img from 'gatsby-image'
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
+import Link from "gatsby-link";
+import styled, { injectGlobal } from "styled-components";
+import Img from "gatsby-image";
 
-import logo from '../../images/logo.svg'
+import logo from "../../images/logo.svg";
 
 injectGlobal`
   ::selection {
     background: #68b869;
     color: #fff;
   }
+  ::-moz-selection {
+    background: #68b869;
+    color: #fff;
+  }
   a {
     color: #68b869;
   }
-`
+  blockquote {
+    border-left: 4px solid #68b869;
+    font-style: oblique;
+    p {
+      padding-left: .5rem;
+      color: #8e8e8e;
+    }
+  }
+`;
 
 const HeaderWrapper = styled.div`
   border-top: 8px solid #68b869;
@@ -22,13 +34,13 @@ const HeaderWrapper = styled.div`
   margin-bottom: 1.45rem;
   overflow: hidden;
   position: relative;
-  height: ${({ isHome }) => (isHome ? '70vh' : '20vh')};
+  height: ${({ isHome }) => (isHome ? "70vh" : "20vh")};
   h1 {
     img {
       height: 100px;
     }
   }
-`
+`;
 
 const HeaderContainer = styled.div`
   margin: 0 auto;
@@ -38,7 +50,7 @@ const HeaderContainer = styled.div`
   z-index: 2;
   display: flex;
   justify-content: space-between;
-`
+`;
 
 const MainNav = styled.nav`
   ul {
@@ -49,8 +61,8 @@ const MainNav = styled.nav`
       font-size: 1.2rem;
       text-transform: uppercase;
       letter-spacing: 0.8px;
-      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell,
-        Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+      font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+        Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
       a {
         text-decoration: none;
         color: #fff;
@@ -60,36 +72,36 @@ const MainNav = styled.nav`
       }
     }
   }
-`
+`;
 
 export default class Header extends Component {
   componentDidUpdate = (prevProps, prevState) => {
-    const { location } = this.props
+    const { location } = this.props;
     if (location.pathname !== prevProps.location.pathname) {
-      if (this.props.location.pathname === '/') {
-        this.wrapper.animate([{ height: '30vh' }, { height: '70vh' }], {
+      if (this.props.location.pathname === "/") {
+        this.wrapper.animate([{ height: "30vh" }, { height: "70vh" }], {
           duration: 300,
-          fill: 'forwards',
-          easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
-          iterations: 1,
-        })
+          fill: "forwards",
+          easing: "cubic-bezier(0.86, 0, 0.07, 1)",
+          iterations: 1
+        });
       } else {
-        this.wrapper.animate([{ height: '70vh' }, { height: '30vh' }], {
+        this.wrapper.animate([{ height: "70vh" }, { height: "30vh" }], {
           duration: 300,
-          fill: 'forwards',
-          easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
-          iterations: 1,
-        })
+          fill: "forwards",
+          easing: "cubic-bezier(0.86, 0, 0.07, 1)",
+          iterations: 1
+        });
       }
     }
-  }
+  };
 
   render() {
-    const { data, location } = this.props
+    const { data, location } = this.props;
     return (
       <div>
         <HeaderWrapper
-          isHome={location.pathname === '/'}
+          isHome={location.pathname === "/"}
           ref={wrapper => (this.wrapper = ReactDOM.findDOMNode(wrapper))}
         >
           <HeaderContainer>
@@ -97,8 +109,8 @@ export default class Header extends Component {
               <Link
                 to="/"
                 style={{
-                  color: 'white',
-                  textDecoration: 'none',
+                  color: "white",
+                  textDecoration: "none"
                 }}
               >
                 <img src={logo} alt="Level Up Logo" />
@@ -117,17 +129,17 @@ export default class Header extends Component {
           </HeaderContainer>
           <Img
             style={{
-              position: 'absolute',
+              position: "absolute",
               left: 0,
               top: 0,
-              width: '100%',
-              height: '100%',
-              opacity: 0.9,
+              width: "100%",
+              height: "100%",
+              opacity: 0.9
             }}
             sizes={data.background.sizes}
           />
         </HeaderWrapper>
       </div>
-    )
+    );
   }
 }

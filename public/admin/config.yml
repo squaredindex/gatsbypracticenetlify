@@ -1,7 +1,9 @@
 backend:
-  name: test-repo
+  name: github
+  repo: squaredindex/gatsbypracticenetlify
 
 media_folder: static/assets
+public_folder: /assets
 
 collections:
 - name: post
@@ -12,3 +14,4 @@ collections:
     - { name: title, label: Title }
     - { name: date, label: Create At, widget: date }
     - { name: body, label: Post, widget: markdown }
+    - { name: image, label: Image, widget: image }

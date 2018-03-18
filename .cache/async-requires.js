@@ -3,6 +3,7 @@ const preferDefault = m => m && m.default || m
 
 exports.components = {
   "component---src-posts-post-page-js": require("gatsby-module-loader?name=component---src-posts-post-page-js!/Users/lev/dev/gatsbypractice-lut/src/posts/PostPage.js"),
+  "component---cache-dev-404-page-js": require("gatsby-module-loader?name=component---cache-dev-404-page-js!/Users/lev/dev/gatsbypractice-lut/.cache/dev-404-page.js"),
   "component---src-pages-404-js": require("gatsby-module-loader?name=component---src-pages-404-js!/Users/lev/dev/gatsbypractice-lut/src/pages/404.js"),
   "component---src-pages-about-js": require("gatsby-module-loader?name=component---src-pages-about-js!/Users/lev/dev/gatsbypractice-lut/src/pages/about.js"),
   "component---src-pages-index-js": require("gatsby-module-loader?name=component---src-pages-index-js!/Users/lev/dev/gatsbypractice-lut/src/pages/index.js")
@@ -10,9 +11,13 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/lev/dev/gatsbypractice-lut/.cache/json/layout-index.json"),
+  "posts-first-post-via-netlify-cms.json": require("gatsby-module-loader?name=path---posts-first-post-via-netlify-cms!/Users/lev/dev/gatsbypractice-lut/.cache/json/posts-first-post-via-netlify-cms.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/lev/dev/gatsbypractice-lut/.cache/json/layout-index.json"),
   "posts-post.json": require("gatsby-module-loader?name=path---posts-post!/Users/lev/dev/gatsbypractice-lut/.cache/json/posts-post.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/lev/dev/gatsbypractice-lut/.cache/json/layout-index.json"),
   "posts-our-second-post.json": require("gatsby-module-loader?name=path---posts-our-second-post!/Users/lev/dev/gatsbypractice-lut/.cache/json/posts-our-second-post.json"),
+  "layout-index.json": require("gatsby-module-loader?name=path---!/Users/lev/dev/gatsbypractice-lut/.cache/json/layout-index.json"),
+  "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/lev/dev/gatsbypractice-lut/.cache/json/dev-404-page.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/lev/dev/gatsbypractice-lut/.cache/json/layout-index.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/lev/dev/gatsbypractice-lut/.cache/json/404.json"),
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/lev/dev/gatsbypractice-lut/.cache/json/layout-index.json"),
