@@ -3,15 +3,22 @@
         "componentChunkName": "component---src-posts-post-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "posts-our-second-post.json",
-        "path": "/posts/our-second-post/"
+        "jsonName": "posts-post.json",
+        "path": "/posts/post/"
     },
     {
         "componentChunkName": "component---src-posts-post-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "posts-post.json",
-        "path": "/posts/post/"
+        "jsonName": "posts-our-second-post.json",
+        "path": "/posts/our-second-post/"
+    },
+    {
+        "componentChunkName": "component---cache-dev-404-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "dev-404-page.json",
+        "path": "/dev-404-page/"
     },
     {
         "componentChunkName": "component---src-pages-404-js",

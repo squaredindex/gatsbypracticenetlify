@@ -1,13 +1,22 @@
 {
   "nodes": {
     "SitePage /dev-404-page/": {
+      "layout": "index",
+      "jsonName": "dev-404-page.json",
+      "internalComponentName": "ComponentDev404Page",
       "path": "/dev-404-page/",
+      "component": "/Users/lev/dev/gatsbypractice-lut/.cache/dev-404-page.js",
+      "componentChunkName": "component---cache-dev-404-page-js",
+      "context": {},
+      "pluginCreator___NODE": "Plugin dev-404-page",
+      "pluginCreatorId": "Plugin dev-404-page",
+      "componentPath": "/Users/lev/dev/gatsbypractice-lut/.cache/dev-404-page.js",
       "id": "SitePage /dev-404-page/",
       "parent": "SOURCE",
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "f91d29e10ba680b413138cf9ed86e655",
+        "contentDigest": "5e80c7f7022db88017879f2b64c36ad8",
         "owner": "internal-data-bridge"
       }
     },
@@ -767,11 +776,88 @@
         "owner": "internal-data-bridge"
       }
     },
+    "Plugin gatsby-plugin-netlify-cms": {
+      "resolve": "/Users/lev/dev/gatsbypractice-lut/node_modules/gatsby-plugin-netlify-cms",
+      "id": "Plugin gatsby-plugin-netlify-cms",
+      "name": "gatsby-plugin-netlify-cms",
+      "version": "1.0.12",
+      "pluginOptions": {
+        "plugins": []
+      },
+      "nodeAPIs": [
+        "modifyWebpackConfig"
+      ],
+      "browserAPIs": [
+        "onInitialClientRender"
+      ],
+      "ssrAPIs": [],
+      "pluginFilepath": "/Users/lev/dev/gatsbypractice-lut/node_modules/gatsby-plugin-netlify-cms",
+      "packageJson": {
+        "name": "gatsby-plugin-netlify-cms",
+        "description": "A Gatsby plugin which generates the Netlify CMS single page app",
+        "version": "1.0.12",
+        "main": "index.js",
+        "keywords": [
+          "gatsby",
+          "gatsby-plugin",
+          "netlify",
+          "netlify-cms"
+        ],
+        "author": {
+          "name": "Shawn Erquhart",
+          "email": "shawn@erquh.art"
+        },
+        "license": "MIT",
+        "dependencies": [
+          {
+            "name": "html-webpack-include-assets-plugin",
+            "version": "^1.0.2"
+          },
+          {
+            "name": "html-webpack-plugin",
+            "version": "^2.30.1"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^1.0.1"
+          },
+          {
+            "name": "netlify-identity-widget",
+            "version": "^1.4.11"
+          }
+        ],
+        "devDependencies": [
+          {
+            "name": "babel-cli",
+            "version": "^6.26.0"
+          },
+          {
+            "name": "cross-env",
+            "version": "^5.1.3"
+          }
+        ],
+        "peerDependencies": [
+          {
+            "name": "gatsby",
+            "version": "^1.0.0"
+          }
+        ],
+        "optionalDependecies": [],
+        "bundledDependecies": []
+      },
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "contentDigest": "dbbcfda2c02f1de107d107bad2e8e09d",
+        "type": "SitePlugin",
+        "owner": "internal-data-bridge"
+      }
+    },
     "Plugin default-site-plugin": {
       "resolve": "/Users/lev/dev/gatsbypractice-lut",
       "id": "Plugin default-site-plugin",
       "name": "default-site-plugin",
-      "version": "d457eedd34ea288ca403dff3612dcd28",
+      "version": "750f6c8639d9f0f77b0593410251c3d4",
       "pluginOptions": {
         "plugins": []
       },
@@ -813,6 +899,10 @@
             "version": "^1.6.39"
           },
           {
+            "name": "gatsby-plugin-netlify-cms",
+            "version": "^1.0.12"
+          },
+          {
             "name": "gatsby-plugin-react-helmet",
             "version": "^2.0.7"
           },
@@ -835,6 +925,10 @@
           {
             "name": "gatsby-transformer-sharp",
             "version": "^1.6.22"
+          },
+          {
+            "name": "netlify-cms",
+            "version": "^1.3.5"
           },
           {
             "name": "react-helmet",
@@ -878,24 +972,26 @@
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "48eba0722aadd11b62709a126454bb10",
+        "contentDigest": "a59b7915dcaa64b129d0d8af1764efb0",
         "type": "SitePlugin",
         "owner": "internal-data-bridge"
       }
     },
     "Site": {
       "siteMetadata": {
-        "title": "Gatsby Default Starter",
-        "desc": "A new blog"
+        "title": "Gatsby Practice Site",
+        "desc": "Finding my feet with React, Gatsby and Styled Components"
       },
-      "pathPrefix": "/gatsby-practice-1",
+      "port": "8000",
+      "host": "localhost",
+      "pathPrefix": "",
       "polyfill": true,
-      "buildTime": "2018-03-18T00:36:38.654Z",
+      "buildTime": "2018-03-18T20:46:24.674Z",
       "id": "Site",
       "parent": "SOURCE",
       "children": [],
       "internal": {
-        "contentDigest": "1b7f1c76587e2df0d070c2e4ae881149",
+        "contentDigest": "3d918e357380f9338b8486fb18aee4dd",
         "type": "Site",
         "owner": "internal-data-bridge"
       }
@@ -905,7 +1001,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "da10b96de97e7eb611d449bd282ec3cb",
+        "contentDigest": "2d66ec8db355613f126054add6c43cae",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -916,7 +1012,7 @@
       "size": 256,
       "prettySize": "256 B",
       "modifiedTime": "2018-02-27T21:05:25.120Z",
-      "accessTime": "2018-03-18T00:36:41.525Z",
+      "accessTime": "2018-03-18T20:46:27.748Z",
       "changeTime": "2018-03-18T00:34:30.387Z",
       "birthTime": "2018-02-21T22:04:53.000Z",
       "root": "/",
@@ -934,11 +1030,11 @@
       "blksize": 4194304,
       "ino": 8598898675,
       "blocks": 0,
-      "atimeMs": 1521333401525.2668,
+      "atimeMs": 1521405987748.4873,
       "mtimeMs": 1519765525120.4658,
       "ctimeMs": 1521333270387.0867,
       "birthtimeMs": 1519250693000,
-      "atime": "2018-03-18T00:36:41.525Z",
+      "atime": "2018-03-18T20:46:27.748Z",
       "mtime": "2018-02-27T21:05:25.120Z",
       "ctime": "2018-03-18T00:34:30.387Z",
       "birthtime": "2018-02-21T22:04:53.000Z"
@@ -948,7 +1044,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "e6122fbcbfd035a510424ec46bb2a62f",
+        "contentDigest": "e8c5ce4bd0a0a497e08cae9fed8fea70",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -959,7 +1055,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-21T22:06:20.000Z",
-      "accessTime": "2018-03-18T00:36:41.528Z",
+      "accessTime": "2018-03-18T20:46:27.751Z",
       "changeTime": "2018-03-18T00:34:30.383Z",
       "birthTime": "2018-02-21T22:06:20.000Z",
       "root": "/",
@@ -977,11 +1073,11 @@
       "blksize": 4194304,
       "ino": 8598898814,
       "blocks": 0,
-      "atimeMs": 1521333401527.803,
+      "atimeMs": 1521405987751.0596,
       "mtimeMs": 1519250780000,
       "ctimeMs": 1521333270382.8228,
       "birthtimeMs": 1519250780000,
-      "atime": "2018-03-18T00:36:41.528Z",
+      "atime": "2018-03-18T20:46:27.751Z",
       "mtime": "2018-02-21T22:06:20.000Z",
       "ctime": "2018-03-18T00:34:30.383Z",
       "birthtime": "2018-02-21T22:06:20.000Z"
@@ -991,7 +1087,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "5e2d44aed0be964c67c86076383c0d9d",
+        "contentDigest": "f05f32c1452416f4ff9f91f1380b478e",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1002,7 +1098,7 @@
       "size": 224,
       "prettySize": "224 B",
       "modifiedTime": "2018-03-17T19:29:34.130Z",
-      "accessTime": "2018-03-18T00:36:41.552Z",
+      "accessTime": "2018-03-18T20:46:27.795Z",
       "changeTime": "2018-03-18T00:34:30.381Z",
       "birthTime": "2018-02-21T18:06:26.000Z",
       "root": "/",
@@ -1020,11 +1116,11 @@
       "blksize": 4194304,
       "ino": 8598898808,
       "blocks": 0,
-      "atimeMs": 1521333401552.3794,
+      "atimeMs": 1521405987794.6816,
       "mtimeMs": 1521314974129.9678,
       "ctimeMs": 1521333270380.644,
       "birthtimeMs": 1519236386000,
-      "atime": "2018-03-18T00:36:41.552Z",
+      "atime": "2018-03-18T20:46:27.795Z",
       "mtime": "2018-03-17T19:29:34.130Z",
       "ctime": "2018-03-18T00:34:30.381Z",
       "birthtime": "2018-02-21T18:06:26.000Z"
@@ -1034,7 +1130,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "18c27b5710e042050bda45b09bb40c3f",
+        "contentDigest": "95536f7c48ae8de5d828dd9a0ab71d57",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1045,7 +1141,7 @@
       "size": 128,
       "prettySize": "128 B",
       "modifiedTime": "2018-02-20T18:32:01.000Z",
-      "accessTime": "2018-03-18T00:36:41.528Z",
+      "accessTime": "2018-03-18T20:46:27.751Z",
       "changeTime": "2018-03-18T00:34:30.384Z",
       "birthTime": "2018-02-20T18:32:01.000Z",
       "root": "/",
@@ -1063,11 +1159,11 @@
       "blksize": 4194304,
       "ino": 8598898819,
       "blocks": 0,
-      "atimeMs": 1521333401527.8076,
+      "atimeMs": 1521405987751.1184,
       "mtimeMs": 1519151521000,
       "ctimeMs": 1521333270384.2961,
       "birthtimeMs": 1519151521000,
-      "atime": "2018-03-18T00:36:41.528Z",
+      "atime": "2018-03-18T20:46:27.751Z",
       "mtime": "2018-02-20T18:32:01.000Z",
       "ctime": "2018-03-18T00:34:30.384Z",
       "birthtime": "2018-02-20T18:32:01.000Z"
@@ -1077,7 +1173,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "2ce50a190813d5424ddb848f9abe3988",
+        "contentDigest": "3c4a4da31abe10012744106a9ff8b804",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1088,7 +1184,7 @@
       "size": 192,
       "prettySize": "192 B",
       "modifiedTime": "2018-03-16T20:46:24.888Z",
-      "accessTime": "2018-03-18T00:36:41.528Z",
+      "accessTime": "2018-03-18T20:46:27.751Z",
       "changeTime": "2018-03-18T00:34:30.387Z",
       "birthTime": "2018-02-21T22:05:21.000Z",
       "root": "/",
@@ -1106,11 +1202,11 @@
       "blksize": 4194304,
       "ino": 8598898822,
       "blocks": 0,
-      "atimeMs": 1521333401527.8984,
+      "atimeMs": 1521405987751.1348,
       "mtimeMs": 1521233184887.8606,
       "ctimeMs": 1521333270386.904,
       "birthtimeMs": 1519250721000,
-      "atime": "2018-03-18T00:36:41.528Z",
+      "atime": "2018-03-18T20:46:27.751Z",
       "mtime": "2018-03-16T20:46:24.888Z",
       "ctime": "2018-03-18T00:34:30.387Z",
       "birthtime": "2018-02-21T22:05:21.000Z"
@@ -1120,7 +1216,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "76e791f8c8c113eecd8cd4acea22c8cb",
+        "contentDigest": "d29747310d393bdebdec6c8e9eea6c70",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1131,7 +1227,7 @@
       "size": 160,
       "prettySize": "160 B",
       "modifiedTime": "2018-03-17T20:31:07.944Z",
-      "accessTime": "2018-03-18T00:36:41.528Z",
+      "accessTime": "2018-03-18T20:46:27.751Z",
       "changeTime": "2018-03-18T00:34:30.377Z",
       "birthTime": "2018-02-21T22:05:16.000Z",
       "root": "/",
@@ -1149,11 +1245,11 @@
       "blksize": 4194304,
       "ino": 8598898803,
       "blocks": 0,
-      "atimeMs": 1521333401527.9036,
+      "atimeMs": 1521405987751.167,
       "mtimeMs": 1521318667943.8374,
       "ctimeMs": 1521333270377.0935,
       "birthtimeMs": 1519250716000,
-      "atime": "2018-03-18T00:36:41.528Z",
+      "atime": "2018-03-18T20:46:27.751Z",
       "mtime": "2018-03-17T20:31:07.944Z",
       "ctime": "2018-03-18T00:34:30.377Z",
       "birthtime": "2018-02-21T22:05:16.000Z"
@@ -1163,7 +1259,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "12624f91a28d7d2142fe7c3f91a23eb2",
+        "contentDigest": "054738d1fedd50e056385a76a648bd0a",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1174,7 +1270,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-02-20T18:32:01.000Z",
-      "accessTime": "2018-03-18T00:36:41.529Z",
+      "accessTime": "2018-03-18T20:46:27.753Z",
       "changeTime": "2018-03-18T00:34:30.383Z",
       "birthTime": "2018-02-20T18:32:01.000Z",
       "root": "/",
@@ -1192,11 +1288,11 @@
       "blksize": 4194304,
       "ino": 8598898817,
       "blocks": 0,
-      "atimeMs": 1521333401529.4824,
+      "atimeMs": 1521405987752.839,
       "mtimeMs": 1519151521000,
       "ctimeMs": 1521333270382.7139,
       "birthtimeMs": 1519151521000,
-      "atime": "2018-03-18T00:36:41.529Z",
+      "atime": "2018-03-18T20:46:27.753Z",
       "mtime": "2018-02-20T18:32:01.000Z",
       "ctime": "2018-03-18T00:34:30.383Z",
       "birthtime": "2018-02-20T18:32:01.000Z"
@@ -1206,7 +1302,7 @@
       "children": [],
       "parent": "___SOURCE___",
       "internal": {
-        "contentDigest": "0e5ed8c6ae615860611c31ddc9ac9420",
+        "contentDigest": "2f1223f1b28972938d78fb5e11c25110",
         "type": "Directory",
         "owner": "gatsby-source-filesystem"
       },
@@ -1217,7 +1313,7 @@
       "size": 96,
       "prettySize": "96 B",
       "modifiedTime": "2018-02-21T22:06:34.000Z",
-      "accessTime": "2018-03-18T00:36:41.529Z",
+      "accessTime": "2018-03-18T20:46:27.753Z",
       "changeTime": "2018-03-18T00:34:30.382Z",
       "birthTime": "2018-02-21T22:06:34.000Z",
       "root": "/",
@@ -1235,11 +1331,11 @@
       "blksize": 4194304,
       "ino": 8598898815,
       "blocks": 0,
-      "atimeMs": 1521333401529.4634,
+      "atimeMs": 1521405987752.8613,
       "mtimeMs": 1519250794000,
       "ctimeMs": 1521333270381.7166,
       "birthtimeMs": 1519250794000,
-      "atime": "2018-03-18T00:36:41.529Z",
+      "atime": "2018-03-18T20:46:27.753Z",
       "mtime": "2018-02-21T22:06:34.000Z",
       "ctime": "2018-03-18T00:34:30.382Z",
       "birthtime": "2018-02-21T22:06:34.000Z"
@@ -1261,7 +1357,7 @@
       "size": 6148,
       "prettySize": "6.15 kB",
       "modifiedTime": "2018-02-20T20:34:36.000Z",
-      "accessTime": "2018-03-17T23:45:28.816Z",
+      "accessTime": "2018-03-18T20:46:27.749Z",
       "changeTime": "2018-03-18T00:34:30.378Z",
       "birthTime": "2018-02-20T20:34:36.000Z",
       "root": "/",
@@ -1279,11 +1375,11 @@
       "blksize": 4194304,
       "ino": 8598898807,
       "blocks": 16,
-      "atimeMs": 1521330328816.1282,
+      "atimeMs": 1521405987748.7688,
       "mtimeMs": 1519158876000,
       "ctimeMs": 1521333270377.762,
       "birthtimeMs": 1519158876000,
-      "atime": "2018-03-17T23:45:28.816Z",
+      "atime": "2018-03-18T20:46:27.749Z",
       "mtime": "2018-02-20T20:34:36.000Z",
       "ctime": "2018-03-18T00:34:30.378Z",
       "birthtime": "2018-02-20T20:34:36.000Z"
@@ -1305,7 +1401,7 @@
       "size": 6148,
       "prettySize": "6.15 kB",
       "modifiedTime": "2018-03-17T18:55:47.129Z",
-      "accessTime": "2018-03-17T23:45:28.817Z",
+      "accessTime": "2018-03-18T20:38:09.376Z",
       "changeTime": "2018-03-18T00:34:30.378Z",
       "birthTime": "2018-03-17T18:55:47.128Z",
       "root": "/",
@@ -1323,11 +1419,11 @@
       "blksize": 4194304,
       "ino": 8598898809,
       "blocks": 16,
-      "atimeMs": 1521330328817.2634,
+      "atimeMs": 1521405489376.4214,
       "mtimeMs": 1521312947128.731,
       "ctimeMs": 1521333270378.372,
       "birthtimeMs": 1521312947128.1277,
-      "atime": "2018-03-17T23:45:28.817Z",
+      "atime": "2018-03-18T20:38:09.376Z",
       "mtime": "2018-03-17T18:55:47.129Z",
       "ctime": "2018-03-18T00:34:30.378Z",
       "birthtime": "2018-03-17T18:55:47.128Z"
@@ -1349,7 +1445,7 @@
       "size": 7524,
       "prettySize": "7.52 kB",
       "modifiedTime": "2018-03-17T18:45:21.193Z",
-      "accessTime": "2018-03-18T00:34:31.745Z",
+      "accessTime": "2018-03-18T20:38:08.893Z",
       "changeTime": "2018-03-18T00:34:30.380Z",
       "birthTime": "2018-03-17T18:45:21.192Z",
       "root": "/",
@@ -1367,14 +1463,146 @@
       "blksize": 4194304,
       "ino": 8598898812,
       "blocks": 16,
-      "atimeMs": 1521333271744.5615,
+      "atimeMs": 1521405488893.0156,
       "mtimeMs": 1521312321192.5447,
       "ctimeMs": 1521333270380.0388,
       "birthtimeMs": 1521312321192.2625,
-      "atime": "2018-03-18T00:34:31.745Z",
+      "atime": "2018-03-18T20:38:08.893Z",
       "mtime": "2018-03-17T18:45:21.193Z",
       "ctime": "2018-03-18T00:34:30.380Z",
       "birthtime": "2018-03-17T18:45:21.192Z"
+    },
+    "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.js absPath of file": {
+      "id": "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "98030978f8ba7c70fe1f18b5ff1eb5e1",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.js",
+      "relativePath": "layouts/index.js",
+      "extension": "js",
+      "size": 1031,
+      "prettySize": "1.03 kB",
+      "modifiedTime": "2018-03-17T19:29:37.000Z",
+      "accessTime": "2018-03-18T20:38:08.893Z",
+      "changeTime": "2018-03-18T00:34:30.383Z",
+      "birthTime": "2018-02-21T20:44:26.000Z",
+      "root": "/",
+      "dir": "/Users/lev/dev/gatsbypractice-lut/src/layouts",
+      "base": "index.js",
+      "ext": ".js",
+      "name": "index",
+      "relativeDirectory": "layouts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598898820,
+      "blocks": 8,
+      "atimeMs": 1521405488893.0579,
+      "mtimeMs": 1521314977000,
+      "ctimeMs": 1521333270383.4604,
+      "birthtimeMs": 1519245866000,
+      "atime": "2018-03-18T20:38:08.893Z",
+      "mtime": "2018-03-17T19:29:37.000Z",
+      "ctime": "2018-03-18T00:34:30.383Z",
+      "birthtime": "2018-02-21T20:44:26.000Z"
+    },
+    "/Users/lev/dev/gatsbypractice-lut/src/pages/.DS_Store absPath of file": {
+      "id": "/Users/lev/dev/gatsbypractice-lut/src/pages/.DS_Store absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "194577a7e20bdcc7afbb718f502c134c",
+        "mediaType": "application/octet-stream",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lev/dev/gatsbypractice-lut/src/pages/.DS_Store",
+      "relativePath": "pages/.DS_Store",
+      "extension": "",
+      "size": 6148,
+      "prettySize": "6.15 kB",
+      "modifiedTime": "2018-02-21T22:05:21.000Z",
+      "accessTime": "2018-03-18T20:38:00.674Z",
+      "changeTime": "2018-03-18T00:34:30.385Z",
+      "birthTime": "2018-02-21T22:05:21.000Z",
+      "root": "/",
+      "dir": "/Users/lev/dev/gatsbypractice-lut/src/pages",
+      "base": ".DS_Store",
+      "ext": "",
+      "name": ".DS_Store",
+      "relativeDirectory": "pages",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598898823,
+      "blocks": 16,
+      "atimeMs": 1521405480674.2437,
+      "mtimeMs": 1519250721000,
+      "ctimeMs": 1521333270385.1152,
+      "birthtimeMs": 1519250721000,
+      "atime": "2018-03-18T20:38:00.674Z",
+      "mtime": "2018-02-21T22:05:21.000Z",
+      "ctime": "2018-03-18T00:34:30.385Z",
+      "birthtime": "2018-02-21T22:05:21.000Z"
+    },
+    "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.css absPath of file": {
+      "id": "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.css absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "d2f7a46d9beb5a5a99462a1e94125418",
+        "mediaType": "text/css",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.css",
+      "relativePath": "layouts/index.css",
+      "extension": "css",
+      "size": 11283,
+      "prettySize": "11.3 kB",
+      "modifiedTime": "2018-03-17T20:44:31.939Z",
+      "accessTime": "2018-03-18T20:38:08.893Z",
+      "changeTime": "2018-03-18T00:34:30.384Z",
+      "birthTime": "2018-02-20T18:32:01.000Z",
+      "root": "/",
+      "dir": "/Users/lev/dev/gatsbypractice-lut/src/layouts",
+      "base": "index.css",
+      "ext": ".css",
+      "name": "index",
+      "relativeDirectory": "layouts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598898821,
+      "blocks": 24,
+      "atimeMs": 1521405488893.0493,
+      "mtimeMs": 1521319471939.3723,
+      "ctimeMs": 1521333270384.1719,
+      "birthtimeMs": 1519151521000,
+      "atime": "2018-03-18T20:38:08.893Z",
+      "mtime": "2018-03-17T20:44:31.939Z",
+      "ctime": "2018-03-18T00:34:30.384Z",
+      "birthtime": "2018-02-20T18:32:01.000Z"
     },
     "/Users/lev/dev/gatsbypractice-lut/src/pages/404.js absPath of file": {
       "id": "/Users/lev/dev/gatsbypractice-lut/src/pages/404.js absPath of file",
@@ -1393,7 +1621,7 @@
       "size": 198,
       "prettySize": "198 B",
       "modifiedTime": "2018-02-20T18:32:01.000Z",
-      "accessTime": "2018-03-18T00:34:31.744Z",
+      "accessTime": "2018-03-18T20:38:08.893Z",
       "changeTime": "2018-03-18T00:34:30.386Z",
       "birthTime": "2018-02-20T18:32:01.000Z",
       "root": "/",
@@ -1411,11 +1639,11 @@
       "blksize": 4194304,
       "ino": 8598898825,
       "blocks": 8,
-      "atimeMs": 1521333271743.9062,
+      "atimeMs": 1521405488893.076,
       "mtimeMs": 1519151521000,
       "ctimeMs": 1521333270385.9983,
       "birthtimeMs": 1519151521000,
-      "atime": "2018-03-18T00:34:31.744Z",
+      "atime": "2018-03-18T20:38:08.893Z",
       "mtime": "2018-02-20T18:32:01.000Z",
       "ctime": "2018-03-18T00:34:30.386Z",
       "birthtime": "2018-02-20T18:32:01.000Z"
@@ -1437,7 +1665,7 @@
       "size": 925,
       "prettySize": "925 B",
       "modifiedTime": "2018-02-20T20:16:57.000Z",
-      "accessTime": "2018-03-18T00:34:31.744Z",
+      "accessTime": "2018-03-18T20:38:08.893Z",
       "changeTime": "2018-03-18T00:34:30.386Z",
       "birthTime": "2018-02-20T20:16:57.000Z",
       "root": "/",
@@ -1455,58 +1683,14 @@
       "blksize": 4194304,
       "ino": 8598898824,
       "blocks": 8,
-      "atimeMs": 1521333271743.8914,
+      "atimeMs": 1521405488893.0857,
       "mtimeMs": 1519157817000,
       "ctimeMs": 1521333270385.5837,
       "birthtimeMs": 1519157817000,
-      "atime": "2018-03-18T00:34:31.744Z",
+      "atime": "2018-03-18T20:38:08.893Z",
       "mtime": "2018-02-20T20:16:57.000Z",
       "ctime": "2018-03-18T00:34:30.386Z",
       "birthtime": "2018-02-20T20:16:57.000Z"
-    },
-    "/Users/lev/dev/gatsbypractice-lut/src/pages/.DS_Store absPath of file": {
-      "id": "/Users/lev/dev/gatsbypractice-lut/src/pages/.DS_Store absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "194577a7e20bdcc7afbb718f502c134c",
-        "mediaType": "application/octet-stream",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lev/dev/gatsbypractice-lut/src/pages/.DS_Store",
-      "relativePath": "pages/.DS_Store",
-      "extension": "",
-      "size": 6148,
-      "prettySize": "6.15 kB",
-      "modifiedTime": "2018-02-21T22:05:21.000Z",
-      "accessTime": "2018-03-17T23:45:28.821Z",
-      "changeTime": "2018-03-18T00:34:30.385Z",
-      "birthTime": "2018-02-21T22:05:21.000Z",
-      "root": "/",
-      "dir": "/Users/lev/dev/gatsbypractice-lut/src/pages",
-      "base": ".DS_Store",
-      "ext": "",
-      "name": ".DS_Store",
-      "relativeDirectory": "pages",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8598898823,
-      "blocks": 16,
-      "atimeMs": 1521330328821.0657,
-      "mtimeMs": 1519250721000,
-      "ctimeMs": 1521333270385.1152,
-      "birthtimeMs": 1519250721000,
-      "atime": "2018-03-17T23:45:28.821Z",
-      "mtime": "2018-02-21T22:05:21.000Z",
-      "ctime": "2018-03-18T00:34:30.385Z",
-      "birthtime": "2018-02-21T22:05:21.000Z"
     },
     "/Users/lev/dev/gatsbypractice-lut/src/pages/index.js absPath of file": {
       "id": "/Users/lev/dev/gatsbypractice-lut/src/pages/index.js absPath of file",
@@ -1525,7 +1709,7 @@
       "size": 777,
       "prettySize": "777 B",
       "modifiedTime": "2018-03-17T20:37:39.975Z",
-      "accessTime": "2018-03-18T00:34:31.744Z",
+      "accessTime": "2018-03-18T20:38:08.893Z",
       "changeTime": "2018-03-18T00:34:30.387Z",
       "birthTime": "2018-02-21T22:19:54.000Z",
       "root": "/",
@@ -1543,58 +1727,14 @@
       "blksize": 4194304,
       "ino": 8598898826,
       "blocks": 8,
-      "atimeMs": 1521333271744.096,
+      "atimeMs": 1521405488893.0942,
       "mtimeMs": 1521319059974.5442,
       "ctimeMs": 1521333270386.7708,
       "birthtimeMs": 1519251594000,
-      "atime": "2018-03-18T00:34:31.744Z",
+      "atime": "2018-03-18T20:38:08.893Z",
       "mtime": "2018-03-17T20:37:39.975Z",
       "ctime": "2018-03-18T00:34:30.387Z",
       "birthtime": "2018-02-21T22:19:54.000Z"
-    },
-    "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.js absPath of file": {
-      "id": "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "98030978f8ba7c70fe1f18b5ff1eb5e1",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.js",
-      "relativePath": "layouts/index.js",
-      "extension": "js",
-      "size": 1031,
-      "prettySize": "1.03 kB",
-      "modifiedTime": "2018-03-17T19:29:37.000Z",
-      "accessTime": "2018-03-18T00:34:31.747Z",
-      "changeTime": "2018-03-18T00:34:30.383Z",
-      "birthTime": "2018-02-21T20:44:26.000Z",
-      "root": "/",
-      "dir": "/Users/lev/dev/gatsbypractice-lut/src/layouts",
-      "base": "index.js",
-      "ext": ".js",
-      "name": "index",
-      "relativeDirectory": "layouts",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8598898820,
-      "blocks": 8,
-      "atimeMs": 1521333271746.5344,
-      "mtimeMs": 1521314977000,
-      "ctimeMs": 1521333270383.4604,
-      "birthtimeMs": 1519245866000,
-      "atime": "2018-03-18T00:34:31.747Z",
-      "mtime": "2018-03-17T19:29:37.000Z",
-      "ctime": "2018-03-18T00:34:30.383Z",
-      "birthtime": "2018-02-21T20:44:26.000Z"
     },
     "/Users/lev/dev/gatsbypractice-lut/src/posts/PostPage.js absPath of file": {
       "id": "/Users/lev/dev/gatsbypractice-lut/src/posts/PostPage.js absPath of file",
@@ -1613,7 +1753,7 @@
       "size": 661,
       "prettySize": "661 B",
       "modifiedTime": "2018-03-17T14:00:45.000Z",
-      "accessTime": "2018-03-18T00:34:31.605Z",
+      "accessTime": "2018-03-18T20:38:08.893Z",
       "changeTime": "2018-03-18T00:34:30.376Z",
       "birthTime": "2018-03-17T13:31:17.679Z",
       "root": "/",
@@ -1631,148 +1771,14 @@
       "blksize": 4194304,
       "ino": 8598898804,
       "blocks": 8,
-      "atimeMs": 1521333271604.7964,
+      "atimeMs": 1521405488893.1096,
       "mtimeMs": 1521295245000,
       "ctimeMs": 1521333270375.9792,
       "birthtimeMs": 1521293477678.9175,
-      "atime": "2018-03-18T00:34:31.605Z",
+      "atime": "2018-03-18T20:38:08.893Z",
       "mtime": "2018-03-17T14:00:45.000Z",
       "ctime": "2018-03-18T00:34:30.376Z",
       "birthtime": "2018-03-17T13:31:17.679Z"
-    },
-    "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.css absPath of file": {
-      "id": "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.css absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "d2f7a46d9beb5a5a99462a1e94125418",
-        "mediaType": "text/css",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lev/dev/gatsbypractice-lut/src/layouts/index.css",
-      "relativePath": "layouts/index.css",
-      "extension": "css",
-      "size": 11283,
-      "prettySize": "11.3 kB",
-      "modifiedTime": "2018-03-17T20:44:31.939Z",
-      "accessTime": "2018-03-18T00:36:11.235Z",
-      "changeTime": "2018-03-18T00:34:30.384Z",
-      "birthTime": "2018-02-20T18:32:01.000Z",
-      "root": "/",
-      "dir": "/Users/lev/dev/gatsbypractice-lut/src/layouts",
-      "base": "index.css",
-      "ext": ".css",
-      "name": "index",
-      "relativeDirectory": "layouts",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8598898821,
-      "blocks": 24,
-      "atimeMs": 1521333371234.7595,
-      "mtimeMs": 1521319471939.3723,
-      "ctimeMs": 1521333270384.1719,
-      "birthtimeMs": 1519151521000,
-      "atime": "2018-03-18T00:36:11.235Z",
-      "mtime": "2018-03-17T20:44:31.939Z",
-      "ctime": "2018-03-18T00:34:30.384Z",
-      "birthtime": "2018-02-20T18:32:01.000Z"
-    },
-    "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file": {
-      "id": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file",
-      "children": [
-        "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file >>> MarkdownRemark"
-      ],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "a72f2ccebf37367e13ab615145fd2291",
-        "mediaType": "text/markdown",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md",
-      "relativePath": "posts/our-second-post.md",
-      "extension": "md",
-      "size": 3154,
-      "prettySize": "3.15 kB",
-      "modifiedTime": "2018-03-17T20:35:47.855Z",
-      "accessTime": "2018-03-18T00:34:31.607Z",
-      "changeTime": "2018-03-18T00:34:30.376Z",
-      "birthTime": "2018-03-17T20:31:07.944Z",
-      "root": "/",
-      "dir": "/Users/lev/dev/gatsbypractice-lut/src/posts",
-      "base": "our-second-post.md",
-      "ext": ".md",
-      "name": "our-second-post",
-      "relativeDirectory": "posts",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8598898805,
-      "blocks": 8,
-      "atimeMs": 1521333271606.5657,
-      "mtimeMs": 1521318947855.1348,
-      "ctimeMs": 1521333270376.419,
-      "birthtimeMs": 1521318667943.8208,
-      "atime": "2018-03-18T00:34:31.607Z",
-      "mtime": "2018-03-17T20:35:47.855Z",
-      "ctime": "2018-03-18T00:34:30.376Z",
-      "birthtime": "2018-03-17T20:31:07.944Z"
-    },
-    "/Users/lev/dev/gatsbypractice-lut/src/components/Posts/PostListing.js absPath of file": {
-      "id": "/Users/lev/dev/gatsbypractice-lut/src/components/Posts/PostListing.js absPath of file",
-      "children": [],
-      "parent": "___SOURCE___",
-      "internal": {
-        "contentDigest": "1b5ec397f932e6dddfe025919a31ee50",
-        "mediaType": "application/javascript",
-        "type": "File",
-        "owner": "gatsby-source-filesystem"
-      },
-      "sourceInstanceName": "src",
-      "absolutePath": "/Users/lev/dev/gatsbypractice-lut/src/components/Posts/PostListing.js",
-      "relativePath": "components/Posts/PostListing.js",
-      "extension": "js",
-      "size": 305,
-      "prettySize": "305 B",
-      "modifiedTime": "2018-03-17T14:01:54.386Z",
-      "accessTime": "2018-03-18T00:34:31.750Z",
-      "changeTime": "2018-03-18T00:34:30.382Z",
-      "birthTime": "2018-02-21T22:17:57.000Z",
-      "root": "/",
-      "dir": "/Users/lev/dev/gatsbypractice-lut/src/components/Posts",
-      "base": "PostListing.js",
-      "ext": ".js",
-      "name": "PostListing",
-      "relativeDirectory": "components/Posts",
-      "dev": 16777220,
-      "mode": 33188,
-      "nlink": 1,
-      "uid": 501,
-      "gid": 20,
-      "rdev": 0,
-      "blksize": 4194304,
-      "ino": 8598898816,
-      "blocks": 8,
-      "atimeMs": 1521333271749.821,
-      "mtimeMs": 1521295314386.4512,
-      "ctimeMs": 1521333270381.639,
-      "birthtimeMs": 1519251477000,
-      "atime": "2018-03-18T00:34:31.750Z",
-      "mtime": "2018-03-17T14:01:54.386Z",
-      "ctime": "2018-03-18T00:34:30.382Z",
-      "birthtime": "2018-02-21T22:17:57.000Z"
     },
     "/Users/lev/dev/gatsbypractice-lut/src/posts/post.md absPath of file": {
       "id": "/Users/lev/dev/gatsbypractice-lut/src/posts/post.md absPath of file",
@@ -1793,7 +1799,7 @@
       "size": 4073,
       "prettySize": "4.07 kB",
       "modifiedTime": "2018-03-17T18:51:21.325Z",
-      "accessTime": "2018-03-18T00:34:31.607Z",
+      "accessTime": "2018-03-18T20:38:00.781Z",
       "changeTime": "2018-03-18T00:34:30.377Z",
       "birthTime": "2018-02-21T22:22:14.000Z",
       "root": "/",
@@ -1811,14 +1817,60 @@
       "blksize": 4194304,
       "ino": 8598898806,
       "blocks": 8,
-      "atimeMs": 1521333271607.1775,
+      "atimeMs": 1521405480780.8877,
       "mtimeMs": 1521312681325.115,
       "ctimeMs": 1521333270376.9895,
       "birthtimeMs": 1519251734000,
-      "atime": "2018-03-18T00:34:31.607Z",
+      "atime": "2018-03-18T20:38:00.781Z",
       "mtime": "2018-03-17T18:51:21.325Z",
       "ctime": "2018-03-18T00:34:30.377Z",
       "birthtime": "2018-02-21T22:22:14.000Z"
+    },
+    "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file": {
+      "id": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file",
+      "children": [
+        "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file >>> MarkdownRemark"
+      ],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "a72f2ccebf37367e13ab615145fd2291",
+        "mediaType": "text/markdown",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md",
+      "relativePath": "posts/our-second-post.md",
+      "extension": "md",
+      "size": 3154,
+      "prettySize": "3.15 kB",
+      "modifiedTime": "2018-03-17T20:35:47.855Z",
+      "accessTime": "2018-03-18T20:38:00.781Z",
+      "changeTime": "2018-03-18T00:34:30.376Z",
+      "birthTime": "2018-03-17T20:31:07.944Z",
+      "root": "/",
+      "dir": "/Users/lev/dev/gatsbypractice-lut/src/posts",
+      "base": "our-second-post.md",
+      "ext": ".md",
+      "name": "our-second-post",
+      "relativeDirectory": "posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598898805,
+      "blocks": 8,
+      "atimeMs": 1521405480780.859,
+      "mtimeMs": 1521318947855.1348,
+      "ctimeMs": 1521333270376.419,
+      "birthtimeMs": 1521318667943.8208,
+      "atime": "2018-03-18T20:38:00.781Z",
+      "mtime": "2018-03-17T20:35:47.855Z",
+      "ctime": "2018-03-18T00:34:30.376Z",
+      "birthtime": "2018-03-17T20:31:07.944Z"
     },
     "/Users/lev/dev/gatsbypractice-lut/src/components/Header/index.js absPath of file": {
       "id": "/Users/lev/dev/gatsbypractice-lut/src/components/Header/index.js absPath of file",
@@ -1837,7 +1889,7 @@
       "size": 3213,
       "prettySize": "3.21 kB",
       "modifiedTime": "2018-03-17T21:15:47.879Z",
-      "accessTime": "2018-03-18T00:34:31.749Z",
+      "accessTime": "2018-03-18T20:38:08.893Z",
       "changeTime": "2018-03-18T00:34:30.383Z",
       "birthTime": "2018-02-21T20:56:31.000Z",
       "root": "/",
@@ -1855,14 +1907,58 @@
       "blksize": 4194304,
       "ino": 8598898818,
       "blocks": 8,
-      "atimeMs": 1521333271748.7332,
+      "atimeMs": 1521405488892.974,
       "mtimeMs": 1521321347879.4153,
       "ctimeMs": 1521333270382.592,
       "birthtimeMs": 1519246591000,
-      "atime": "2018-03-18T00:34:31.749Z",
+      "atime": "2018-03-18T20:38:08.893Z",
       "mtime": "2018-03-17T21:15:47.879Z",
       "ctime": "2018-03-18T00:34:30.383Z",
       "birthtime": "2018-02-21T20:56:31.000Z"
+    },
+    "/Users/lev/dev/gatsbypractice-lut/src/components/Posts/PostListing.js absPath of file": {
+      "id": "/Users/lev/dev/gatsbypractice-lut/src/components/Posts/PostListing.js absPath of file",
+      "children": [],
+      "parent": "___SOURCE___",
+      "internal": {
+        "contentDigest": "1b5ec397f932e6dddfe025919a31ee50",
+        "mediaType": "application/javascript",
+        "type": "File",
+        "owner": "gatsby-source-filesystem"
+      },
+      "sourceInstanceName": "src",
+      "absolutePath": "/Users/lev/dev/gatsbypractice-lut/src/components/Posts/PostListing.js",
+      "relativePath": "components/Posts/PostListing.js",
+      "extension": "js",
+      "size": 305,
+      "prettySize": "305 B",
+      "modifiedTime": "2018-03-17T14:01:54.386Z",
+      "accessTime": "2018-03-18T20:38:08.893Z",
+      "changeTime": "2018-03-18T00:34:30.382Z",
+      "birthTime": "2018-02-21T22:17:57.000Z",
+      "root": "/",
+      "dir": "/Users/lev/dev/gatsbypractice-lut/src/components/Posts",
+      "base": "PostListing.js",
+      "ext": ".js",
+      "name": "PostListing",
+      "relativeDirectory": "components/Posts",
+      "dev": 16777220,
+      "mode": 33188,
+      "nlink": 1,
+      "uid": 501,
+      "gid": 20,
+      "rdev": 0,
+      "blksize": 4194304,
+      "ino": 8598898816,
+      "blocks": 8,
+      "atimeMs": 1521405488892.9897,
+      "mtimeMs": 1521295314386.4512,
+      "ctimeMs": 1521333270381.639,
+      "birthtimeMs": 1519251477000,
+      "atime": "2018-03-18T20:38:08.893Z",
+      "mtime": "2018-03-17T14:01:54.386Z",
+      "ctime": "2018-03-18T00:34:30.382Z",
+      "birthtime": "2018-02-21T22:17:57.000Z"
     },
     "/Users/lev/dev/gatsbypractice-lut/src/images/bg.jpg absPath of file": {
       "id": "/Users/lev/dev/gatsbypractice-lut/src/images/bg.jpg absPath of file",
@@ -1883,7 +1979,7 @@
       "size": 178500,
       "prettySize": "179 kB",
       "modifiedTime": "2018-03-17T18:55:46.815Z",
-      "accessTime": "2018-03-18T00:34:31.745Z",
+      "accessTime": "2018-03-18T20:38:00.780Z",
       "changeTime": "2018-03-18T00:34:30.381Z",
       "birthTime": "2018-03-17T18:55:46.815Z",
       "root": "/",
@@ -1901,11 +1997,11 @@
       "blksize": 4194304,
       "ino": 8598898813,
       "blocks": 352,
-      "atimeMs": 1521333271744.5425,
+      "atimeMs": 1521405480780.0598,
       "mtimeMs": 1521312946815.244,
       "ctimeMs": 1521333270380.5493,
       "birthtimeMs": 1521312946814.9778,
-      "atime": "2018-03-18T00:34:31.745Z",
+      "atime": "2018-03-18T20:38:00.780Z",
       "mtime": "2018-03-17T18:55:46.815Z",
       "ctime": "2018-03-18T00:34:30.381Z",
       "birthtime": "2018-03-17T18:55:46.815Z"
@@ -1929,7 +2025,7 @@
       "size": 159959,
       "prettySize": "160 kB",
       "modifiedTime": "2018-03-17T19:25:25.095Z",
-      "accessTime": "2018-03-18T00:34:31.591Z",
+      "accessTime": "2018-03-18T20:38:00.780Z",
       "changeTime": "2018-03-18T00:34:30.380Z",
       "birthTime": "2018-03-17T19:25:25.094Z",
       "root": "/",
@@ -1947,11 +2043,11 @@
       "blksize": 4194304,
       "ino": 8598898811,
       "blocks": 320,
-      "atimeMs": 1521333271590.9575,
+      "atimeMs": 1521405480780.1396,
       "mtimeMs": 1521314725094.6992,
       "ctimeMs": 1521333270379.5044,
       "birthtimeMs": 1521314725094.4734,
-      "atime": "2018-03-18T00:34:31.591Z",
+      "atime": "2018-03-18T20:38:00.780Z",
       "mtime": "2018-03-17T19:25:25.095Z",
       "ctime": "2018-03-18T00:34:30.380Z",
       "birthtime": "2018-03-17T19:25:25.094Z"
@@ -1974,31 +2070,6 @@
         "contentDigest": "ee413dc8f8d2dce239190b1f29bdaaa6",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file >>> MarkdownRemark": {
-      "id": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file >>> MarkdownRemark",
-      "children": [],
-      "parent": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file",
-      "internal": {
-        "content": "---\ntitle: \"Our Second Blog Post\"\ndate: \"2018-03-17\"\n---\n\nIt's just like the story of the grasshopper and the octopus. All year long, the grasshopper kept burying acorns for winter, while the octopus mooched off his girlfriend and watched TV.\n\nBut then the winter came, and the grasshopper died, and the octopus ate all his acorns. Also, he got a race car. Is any of this getting through to you? Good man. Nixon's pro-war and pro-family.\n\n1.  Do a flip!\n2.  When will that be?\n3.  Actually, that's still true.\n\n### Old Doomsday Devices are dangerously unstable\n\nHi, I'm a naughty nurse, and I really need someone to talk to. $9.95 a minute. You wouldn't. Ask anyway! For one beautiful night I knew what it was like to be a grandmother. Subjugated, yet honored. Ooh, name it after me!\n\n* You, minion. Lift my arm. AFTER HIM!\n* Soothe us with sweet lies.\n* Now what?\n\nWhy would I want to know that? These old Doomsday Devices are dangerously unstable. I'll rest easier not knowing where they are. _\"THE BIG BRAIN AM WINNING AGAIN! I AM THE GREETEST! NOW I AM LEAVING EARTH, FOR NO RAISEN!\"_\n\nDoes anybody else feel jealous and aroused and worried? Dear God, they'll be killed on our doorstep! And there's no trash pickup until January 3rd. Ummm…to eBay? You, a bobsleder!? That I'd like to see!\n\nOur love isn't any different from yours, except it's hotter, because I'm involved. Look, everyone wants to be like Germany, but do we really have the pure strength of 'will'? Oh, all right, I am. But if anything happens to me, tell them I died robbing some old man.\n\nI just told you! You've killed me! And remember, don't do anything that affects anything, unless it turns out you were supposed to, in which case, for the love of God, don't not do it! Enough about your promiscuous mother, Hermes! We have bigger problems.\n\nWould you censor the Venus de Venus just because you can see her spewers? Oh, I think we should just stay friends. Who's brave enough to fly into something we all keep calling a death sphere? Oh, but you can. But you may have to metaphorically make a deal with the devil. And by \"devil\", I mean Robot Devil. And by \"metaphorically\", I mean get your coat.\n\nDoomsday device? Ah, now the ball's in Farnsworth's court! No. We're on the top. Noooooo! Guess again. Ummm…to eBay? Please, Don-Bot… look into your hard drive, and open your mercy file!\n\nI'm Santa Claus! So I really am important? How I feel when I'm drunk is correct? Fry! Quit doing the right thing, you jerk! You lived before you met me?!\n\nQuite possible. We live long and are celebrated poopers. And then the battle's not so bad? Belligerent and numerous. Leela, Bender, we're going grave robbing. Fry! Stay back! He's too powerful!\n\nGood news, everyone! I've taught the toaster to feel love! Yeah. Give a little credit to our public schools. No argument here. Bender! Ship! Stop bickering or I'm going to come back there and change your opinions manually!\n\nWhy would a robot need to drink? You've killed me! Oh, you've killed me! These old Doomsday Devices are dangerously unstable. I'll rest easier not knowing where they are. You, a bobsleder!? That I'd like to see!\n",
-        "type": "MarkdownRemark",
-        "contentDigest": "1b9bf3c88080519102496ead6e48ba62",
-        "owner": "gatsby-transformer-remark",
-        "fieldOwners": {
-          "slug": "default-site-plugin"
-        }
-      },
-      "frontmatter": {
-        "title": "Our Second Blog Post",
-        "date": "2018-03-17",
-        "_PARENT": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file",
-        "parent": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file"
-      },
-      "excerpt": "",
-      "fileAbsolutePath": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md",
-      "fields": {
-        "slug": "/posts/our-second-post/"
       }
     },
     "/Users/lev/dev/gatsbypractice-lut/src/posts/post.md absPath of file >>> MarkdownRemark": {
@@ -2026,6 +2097,31 @@
         "slug": "/posts/post/"
       }
     },
+    "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file >>> MarkdownRemark": {
+      "id": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file >>> MarkdownRemark",
+      "children": [],
+      "parent": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file",
+      "internal": {
+        "content": "---\ntitle: \"Our Second Blog Post\"\ndate: \"2018-03-17\"\n---\n\nIt's just like the story of the grasshopper and the octopus. All year long, the grasshopper kept burying acorns for winter, while the octopus mooched off his girlfriend and watched TV.\n\nBut then the winter came, and the grasshopper died, and the octopus ate all his acorns. Also, he got a race car. Is any of this getting through to you? Good man. Nixon's pro-war and pro-family.\n\n1.  Do a flip!\n2.  When will that be?\n3.  Actually, that's still true.\n\n### Old Doomsday Devices are dangerously unstable\n\nHi, I'm a naughty nurse, and I really need someone to talk to. $9.95 a minute. You wouldn't. Ask anyway! For one beautiful night I knew what it was like to be a grandmother. Subjugated, yet honored. Ooh, name it after me!\n\n* You, minion. Lift my arm. AFTER HIM!\n* Soothe us with sweet lies.\n* Now what?\n\nWhy would I want to know that? These old Doomsday Devices are dangerously unstable. I'll rest easier not knowing where they are. _\"THE BIG BRAIN AM WINNING AGAIN! I AM THE GREETEST! NOW I AM LEAVING EARTH, FOR NO RAISEN!\"_\n\nDoes anybody else feel jealous and aroused and worried? Dear God, they'll be killed on our doorstep! And there's no trash pickup until January 3rd. Ummm…to eBay? You, a bobsleder!? That I'd like to see!\n\nOur love isn't any different from yours, except it's hotter, because I'm involved. Look, everyone wants to be like Germany, but do we really have the pure strength of 'will'? Oh, all right, I am. But if anything happens to me, tell them I died robbing some old man.\n\nI just told you! You've killed me! And remember, don't do anything that affects anything, unless it turns out you were supposed to, in which case, for the love of God, don't not do it! Enough about your promiscuous mother, Hermes! We have bigger problems.\n\nWould you censor the Venus de Venus just because you can see her spewers? Oh, I think we should just stay friends. Who's brave enough to fly into something we all keep calling a death sphere? Oh, but you can. But you may have to metaphorically make a deal with the devil. And by \"devil\", I mean Robot Devil. And by \"metaphorically\", I mean get your coat.\n\nDoomsday device? Ah, now the ball's in Farnsworth's court! No. We're on the top. Noooooo! Guess again. Ummm…to eBay? Please, Don-Bot… look into your hard drive, and open your mercy file!\n\nI'm Santa Claus! So I really am important? How I feel when I'm drunk is correct? Fry! Quit doing the right thing, you jerk! You lived before you met me?!\n\nQuite possible. We live long and are celebrated poopers. And then the battle's not so bad? Belligerent and numerous. Leela, Bender, we're going grave robbing. Fry! Stay back! He's too powerful!\n\nGood news, everyone! I've taught the toaster to feel love! Yeah. Give a little credit to our public schools. No argument here. Bender! Ship! Stop bickering or I'm going to come back there and change your opinions manually!\n\nWhy would a robot need to drink? You've killed me! Oh, you've killed me! These old Doomsday Devices are dangerously unstable. I'll rest easier not knowing where they are. You, a bobsleder!? That I'd like to see!\n",
+        "type": "MarkdownRemark",
+        "contentDigest": "1b9bf3c88080519102496ead6e48ba62",
+        "owner": "gatsby-transformer-remark",
+        "fieldOwners": {
+          "slug": "default-site-plugin"
+        }
+      },
+      "frontmatter": {
+        "title": "Our Second Blog Post",
+        "date": "2018-03-17",
+        "_PARENT": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file",
+        "parent": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file"
+      },
+      "excerpt": "",
+      "fileAbsolutePath": "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md",
+      "fields": {
+        "slug": "/posts/our-second-post/"
+      }
+    },
     "/Users/lev/dev/gatsbypractice-lut/src/images/pe-bg2.jpg absPath of file": {
       "id": "/Users/lev/dev/gatsbypractice-lut/src/images/pe-bg2.jpg absPath of file",
       "children": [
@@ -2045,7 +2141,7 @@
       "size": 586214,
       "prettySize": "586 kB",
       "modifiedTime": "2018-03-17T19:28:28.886Z",
-      "accessTime": "2018-03-18T00:34:31.591Z",
+      "accessTime": "2018-03-18T20:38:03.539Z",
       "changeTime": "2018-03-18T00:34:30.379Z",
       "birthTime": "2018-03-17T19:28:28.882Z",
       "root": "/",
@@ -2063,11 +2159,11 @@
       "blksize": 4194304,
       "ino": 8598898810,
       "blocks": 1152,
-      "atimeMs": 1521333271590.9653,
+      "atimeMs": 1521405483539.434,
       "mtimeMs": 1521314908886.0715,
       "ctimeMs": 1521333270379.0044,
       "birthtimeMs": 1521314908881.5698,
-      "atime": "2018-03-18T00:34:31.591Z",
+      "atime": "2018-03-18T20:38:03.539Z",
       "mtime": "2018-03-17T19:28:28.886Z",
       "ctime": "2018-03-18T00:34:30.379Z",
       "birthtime": "2018-03-17T19:28:28.882Z"
@@ -2080,28 +2176,6 @@
         "contentDigest": "498c71505262aec8f7047d7e2c2b0567",
         "type": "ImageSharp",
         "owner": "gatsby-transformer-sharp"
-      }
-    },
-    "SitePage /posts/our-second-post/": {
-      "layout": "index",
-      "jsonName": "posts-our-second-post.json",
-      "internalComponentName": "ComponentPostsOurSecondPost",
-      "path": "/posts/our-second-post/",
-      "component": "/Users/lev/dev/gatsbypractice-lut/src/posts/PostPage.js",
-      "componentChunkName": "component---src-posts-post-page-js",
-      "context": {
-        "slug": "/posts/our-second-post/"
-      },
-      "pluginCreator___NODE": "Plugin default-site-plugin",
-      "pluginCreatorId": "Plugin default-site-plugin",
-      "componentPath": "/Users/lev/dev/gatsbypractice-lut/src/posts/PostPage.js",
-      "id": "SitePage /posts/our-second-post/",
-      "parent": "SOURCE",
-      "children": [],
-      "internal": {
-        "type": "SitePage",
-        "contentDigest": "6081f9d08db88be0c0a75ebb417d3afc",
-        "owner": "internal-data-bridge"
       }
     },
     "SitePage /posts/post/": {
@@ -2122,7 +2196,29 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "6fb5e617a281a7b0ca9f39aa8729d1e4",
+        "contentDigest": "8b991c1f3a669fdba2c3717567bd80f8",
+        "owner": "internal-data-bridge"
+      }
+    },
+    "SitePage /posts/our-second-post/": {
+      "layout": "index",
+      "jsonName": "posts-our-second-post.json",
+      "internalComponentName": "ComponentPostsOurSecondPost",
+      "path": "/posts/our-second-post/",
+      "component": "/Users/lev/dev/gatsbypractice-lut/src/posts/PostPage.js",
+      "componentChunkName": "component---src-posts-post-page-js",
+      "context": {
+        "slug": "/posts/our-second-post/"
+      },
+      "pluginCreator___NODE": "Plugin default-site-plugin",
+      "pluginCreatorId": "Plugin default-site-plugin",
+      "componentPath": "/Users/lev/dev/gatsbypractice-lut/src/posts/PostPage.js",
+      "id": "SitePage /posts/our-second-post/",
+      "parent": "SOURCE",
+      "children": [],
+      "internal": {
+        "type": "SitePage",
+        "contentDigest": "ce78921f15d8917f905a4aad06b66e38",
         "owner": "internal-data-bridge"
       }
     },
@@ -2142,7 +2238,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "14b58655b94ef2914c14a8a145bc6b61",
+        "contentDigest": "6dec947ef8dbe9223f5570dfa6f27196",
         "owner": "internal-data-bridge"
       }
     },
@@ -2162,7 +2258,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "af736bdff3ad25e3c2e3de0f994d31fc",
+        "contentDigest": "7a4f5150bffe3eab8c43ef532763c806",
         "owner": "internal-data-bridge"
       }
     },
@@ -2182,7 +2278,7 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "ea29e936e8a6ecd84e4e30ce67af6575",
+        "contentDigest": "e157dd38d18f2598ae642703b41d9a9c",
         "owner": "internal-data-bridge"
       }
     },
@@ -2202,22 +2298,22 @@
       "children": [],
       "internal": {
         "type": "SitePage",
-        "contentDigest": "a933e6b2d57f332be035ef3360ab10eb",
+        "contentDigest": "de163653a51a36f69c974df700a825b7",
         "owner": "internal-data-bridge"
       }
     }
   },
   "status": {
     "plugins": {},
-    "PLUGINS_HASH": "667a6beea452ece68a0a98d3d28489fb"
+    "PLUGINS_HASH": "03573b82d9e6017703b94bc3c8425044"
   },
   "componentDataDependencies": {
     "nodes": {
-      "/Users/lev/dev/gatsbypractice-lut/src/posts/post.md absPath of file >>> MarkdownRemark": [
-        "/posts/post/"
-      ],
       "/Users/lev/dev/gatsbypractice-lut/src/posts/our-second-post.md absPath of file >>> MarkdownRemark": [
         "/posts/our-second-post/"
+      ],
+      "/Users/lev/dev/gatsbypractice-lut/src/posts/post.md absPath of file >>> MarkdownRemark": [
+        "/posts/post/"
       ],
       "Site": [
         "/",
@@ -2227,7 +2323,6 @@
         "LAYOUT___index"
       ],
       "/Users/lev/dev/gatsbypractice-lut/src/images/pe-bg2.jpg absPath of file": [
-        null,
         null
       ]
     },
