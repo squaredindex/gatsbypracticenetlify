@@ -5,7 +5,7 @@ image: /static/assets/sips.png
 ---
 ## The real post, the best post...
 
-![Sips playing Skyrim - The Real Guy, The Best Guy.](/static/assets/sips-card.jpg)
+![Sips playing Skyrim - The Real Guy, The Best Guy.](/static/assets/sips.png)
 
 > Ho ho ho travellers! Thanks for getting the Staff of Magnus for me... I'll be taking that!
 >
