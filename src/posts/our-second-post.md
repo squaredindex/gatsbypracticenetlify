@@ -1,15 +1,14 @@
 ---
-title: "Our Second Blog Post"
-date: "2018-03-17"
+title: Our Second Blog Post
+date: '2018-03-17'
 ---
-
 It's just like the story of the grasshopper and the octopus. All year long, the grasshopper kept burying acorns for winter, while the octopus mooched off his girlfriend and watched TV.
 
 But then the winter came, and the grasshopper died, and the octopus ate all his acorns. Also, he got a race car. Is any of this getting through to you? Good man. Nixon's pro-war and pro-family.
 
-1.  Do a flip!
-2.  When will that be?
-3.  Actually, that's still true.
+1. Do a flip!
+2. When will that be?
+3. Actually, that's still true.
 
 ### Old Doomsday Devices are dangerously unstable
 
@@ -19,7 +18,7 @@ Hi, I'm a naughty nurse, and I really need someone to talk to. $9.95 a minute. Y
 * Soothe us with sweet lies.
 * Now what?
 
-Why would I want to know that? These old Doomsday Devices are dangerously unstable. I'll rest easier not knowing where they are. _"THE BIG BRAIN AM WINNING AGAIN! I AM THE GREETEST! NOW I AM LEAVING EARTH, FOR NO RAISEN!"_
+Why would I want to know that? These old Doomsday Devices are dangerously unstable. I'll rest easier not knowing where they are. _"THE BIG BRAIN AM WINNING AGAIN! I AM THE GREETEST! NOW I AM LEAVING EARTH, FOR NO RAISEN!" - _[_Fry_](https://www.youtube.com/watch?v=uKMLQ_RgJ4A)
 
 Does anybody else feel jealous and aroused and worried? Dear God, they'll be killed on our doorstep! And there's no trash pickup until January 3rd. Ummm…to eBay? You, a bobsleder!? That I'd like to see!
 
