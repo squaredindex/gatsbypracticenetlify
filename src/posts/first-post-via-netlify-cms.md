@@ -1,6 +1,7 @@
 ---
 title: First post via Netlify CMS
 date: '2018-03-18'
+image: /static/assets/sips.png
 ---
 ## The real post, the best post...
 
