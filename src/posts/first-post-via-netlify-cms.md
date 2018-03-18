@@ -8,11 +8,4 @@ date: '2018-03-18'
 
 > Ho ho ho travellers! Thanks for getting the Staff of Magnus for me... I'll be taking that!
 >
-> \
->
->
-> - 
->
 > [Sips](https://www.youtube.com/watch?v=dJ7QHbxNgJQ)
->
->
