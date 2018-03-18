@@ -1,5 +1,6 @@
 backend:
-  name: test-repo
+  name: github
+  repo: squaredindex/gatsbypracticenetlify
 
 media_folder: static/assets
 
