@@ -9,20 +9,26 @@
       "path---posts-our-second-post-ed593e8cbaee0876e7a7.js.map"
     ],
     "path---": [
-      "path----94bd2f206df4646b1503.js",
-      "path----94bd2f206df4646b1503.js.map"
+      "path----ccf5ca488aa544439399.js",
+      "path----ccf5ca488aa544439399.js.map"
     ],
     "component---src-posts-post-page-js": [
       "component---src-posts-post-page-js-5d669890ca7924851305.js",
       "component---src-posts-post-page-js-5d669890ca7924851305.js.map"
     ],
+    "cms": [
+      "cms-e0aae9077e4a481b4968.js",
+      "cms.css",
+      "cms-e0aae9077e4a481b4968.js.map",
+      "cms.css.map"
+    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-46fd825b07492909d730.js",
-      "component---src-layouts-index-js-46fd825b07492909d730.js.map"
+      "component---src-layouts-index-js-62306354be57223ddf02.js",
+      "component---src-layouts-index-js-62306354be57223ddf02.js.map"
     ],
     "path---index": [
-      "path---index-665d6d24749fcbb355a1.js",
-      "path---index-665d6d24749fcbb355a1.js.map"
+      "path---index-289dacb8d433d8dd0535.js",
+      "path---index-289dacb8d433d8dd0535.js.map"
     ],
     "component---src-pages-404-js": [
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js",
@@ -37,9 +43,9 @@
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
     "app": [
-      "app-fddd744b8ba5be50f3b6.js",
+      "app-1b8823c403bfbb31f2a8.js",
       "build-js-styles.css",
-      "app-fddd744b8ba5be50f3b6.js.map",
+      "app-1b8823c403bfbb31f2a8.js.map",
       "build-js-styles.css.map"
     ],
     "path---404": [
