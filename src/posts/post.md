@@ -1,11 +1,11 @@
 ---
-title: "Welcome to Planet Express!"
-date: "2018-03-16"
+title: Welcome to Planet Express!
+date: '2018-03-16'
+image: /assets/sips.png
 ---
-
 You know, I was God once. Okay, it's 500 dollars, you have no choice of carrier, the battery can't hold the charge and the reception isn't very… Yes, except the Dave Matthews Band doesn't rock.
 
-<!-- end --> Morbo can't understand his teleprompter because he forgot how you say that letter that's shaped like a man wearing a hat.
+Morbo can't understand his teleprompter because he forgot how you say that letter that's shaped like a man wearing a hat.
 
 **Leela, Bender, we're going grave robbing.** _My fellow Earthicans, as I have explained in my book 'Earth in the Balance'', and the much more popular ''Harry Potter and the Balance of Earth', we need to defend our planet against pollution._ Also dark wizards.
 
@@ -13,9 +13,9 @@ You know, I was God once. Okay, it's 500 dollars, you have no choice of carrier,
 
 It's just like the story of the grasshopper and the octopus. All year long, the grasshopper kept burying acorns for winter, while the octopus mooched off his girlfriend and watched TV. But then the winter came, and the grasshopper died, and the octopus ate all his acorns. Also, he got a race car. Is any of this getting through to you? Good man. Nixon's pro-war and pro-family.
 
-1.  Do a flip!
-2.  When will that be?
-3.  Actually, that's still true.
+1. Do a flip!
+2. When will that be?
+3. Actually, that's still true.
 
 ### And I'm his friend Jesus.
 
